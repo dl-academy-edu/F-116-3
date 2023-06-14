@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    height: 1900px;
+}
+
+.contextmenu {
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+}
+
+.contextmenu_hidden {
+    display: none;
+}
+
+.button-to-top {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+}
+
+.button-to-top_hidden {
+    display: none;
+}
