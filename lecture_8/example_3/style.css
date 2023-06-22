@@ -1,0 +1,36 @@
+body {
+    padding: 26px 50px;
+  }
+  
+  .filter-form div:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  
+  span {
+    margin-right: 10px;
+  }
+  
+  .radio-button:not(:last-child) {
+    margin-right: 15px;
+  }
+  
+  input {
+    margin-right: 5px;
+  }
+  
+  .filter-button {
+    margin-top: 15px;
+    min-width: 100px;
+    border: 2.5px solid #000;
+    background-color: transparent;
+    padding: 7px 14px;
+    outline: none;
+  }
+  
+  .filter-button:hover,
+  .filter-button:focus {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+  }
+  

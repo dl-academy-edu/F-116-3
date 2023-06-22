@@ -1,0 +1,56 @@
+body {
+    padding: 0 50px;
+}
+
+.books {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    min-height: 200px;
+    background-color: #f5f0dc;
+    padding: 30px;
+    box-sizing: border-box;
+
+    margin-bottom: 30px;
+}
+
+.str {
+    text-align: justify;
+}
+
+.number-str {
+    font-size: 14px;
+}
+
+.buttons {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 100px;
+    border: 2.5px solid #000;
+    background-color: transparent;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    outline: none;
+}
+
+    .button:not(:disabled) {
+
+        &:hover,
+        &:focus {
+            cursor: pointer;
+            background-color: #000;
+            color: #fff;
+        }
+    }
+
+    .button:disabled {
+        opacity: 0.4;
+        pointer-event: none;
+        user-select: none;
+    }
