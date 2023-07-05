@@ -7,7 +7,7 @@ function interactionModal(modal) {
 const BASE_SERBER_PATH = 'https://academy.directlinedev.com';
 
 function sendRequest({ url, method = 'GET', headers, body = null }) {
-    return fetch(BASE_SERBER_PATH + url + '?v=1.0.0.', {
+    return fetch(BASE_SERBER_PATH + url, {
         method,
         headers,
         body,
